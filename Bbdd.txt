@@ -1,0 +1,29 @@
+Bases de datos (Tienda)
+Tabla Usuarios: Datos del usuario: Usuario, Contraseña, Nombre, correo y direccion.
+Tabla Compra: id, Productos, cantidad y precio
+Tabla Pedidos: Datos del pedido: Usuario, id, estado.
+Tabla Productos: Nombre, Descripcion, color, precio, stock, imagen.
+
+
+
+
+
+Productos
+Iphone 15, descripcion1, blanco, 985.90, 12, ./assets/images/iphone15.png
+Iphone 15, descripcion1, negro, 985.90, 5, ./assets/images/iphone15.png
+Iphone 15, descripcion1, azul, 985.90, 10, ./assets/images/iphone15.png
+Iphone 15, descripcion1, verde, 985.90, 15, ./assets/images/iphone15.png
+
+
+Iphone 15 Pro, descripcion1, blanco, 1060.00, 10, ./assets/images/iphone15pro.png
+Iphone 15 Pro, descripcion1, negro, 1060.00, 8, ./assets/images/iphone15pro.png
+Iphone 15 Pro, descripcion1, azul, 1060.00, 7, ./assets/images/iphone15pro.png
+
+
+Iphone 15 Pro Max descripcion1, blanco, 1390.00, 0, ./assets/images/iphone15promax.png
+Iphone 15 Pro Max descripcion1, blanco, 1390.00, 0, ./assets/images/iphone15promax.png
+
+
+AirPods, null, Blanco, 119.95, 2, ./assets/images/airpod1.png
+AirPods Pro, null, Gris, 210.95, 0, ./assets/images/airpodpro.png
+AirPods Pro Max, null, Gris, 320.95, 10, ./assets/images/airpodMax.png

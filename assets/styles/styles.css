@@ -1,0 +1,355 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+main {
+    width: 500%;
+    height: 100vh;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+section {
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+/* .slider {
+    background: url("https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80");
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+    overflow: hidden;
+} */
+
+.containerProducto{
+    display: flex;
+    width: 50%;
+    height: 60%;
+    padding: 25px;
+    border-radius: 10px;
+    margin-top: 10vh;
+}
+
+.containerProductoImagen{
+    display: grid;
+    place-content: center;
+    width: 50%;
+}
+
+.containerProductoData{
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 100%;
+}
+
+#productName, #productName2, #productName3{
+    width: 100%;
+    text-align: center;
+    font-family: baloo;
+    font-size: 32px;
+}
+
+#productDescripcion, #productDescripcion2, #productDescripcion3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 50px;
+    font-size: 16px;
+}
+
+#productPrice, #productColors, #productPrice2, #productColors2, #productPrice3, #productColors3{
+    width: 100%;
+    text-align: center;
+}
+
+.containerColores{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+}
+
+.add {
+    height: 40px;
+    margin: 20px 0px 20px 40%;
+    width: 120px;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.add:hover {
+    background-color: #2980b9; /* Cambia el color al pasar el ratón sobre el botón */
+}
+
+
+
+
+/* Contenedor 4 */
+.containerAirPods{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.containerAirpod{
+    text-align: center;
+    margin-top: -20vh;
+    padding: 20px;
+    background-color: #d4d4d4c9;
+    border-radius: 15px;
+    height: 500px;
+    width: 30%;
+}
+
+#imagenAirpod1{
+    width: 500px;
+    margin-top: -50px;
+}
+
+#imagenAirpod2{
+    width: 250px;
+    margin-top: 20px;
+}
+
+#imagenAirpod3{
+    width: 300px;
+    margin-top: -30px;
+    margin-bottom: -50px;
+}
+
+.containerDataAirpod p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.containerDataAirpod h2{
+    font-family: baloo;
+    font-size: 26px;
+}
+
+.containerDataAirpod .botonFuncional{
+    width: 250px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+}
+
+.botonFuncional:hover{
+    background-color: #2980b9;
+}
+
+.botonNoFuncional{
+    width: 250px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #ccc;
+    color: #fff;
+    border: none;
+}
+
+
+
+
+
+
+
+
+.features {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+  }
+  
+  .feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #productColors {
+    font-size: 16px;
+    color: #555;
+}
+
+.colorButton {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+
+.success-message-container {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    position: absolute;
+    top: 12vh;
+    right: 3vh;
+    display: none;
+    place-content: center;
+    width: 350px;
+    height: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #4CAF50;
+}
+
+
+
+footer {
+    display: flex;
+  }
+  
+  .footerLeft {
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+  }
+  
+  .fMenuTitle {
+    font-size: 16px;
+  }
+  
+  .fList {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .fListItem {
+    margin-bottom: 10px;
+    color: gray;
+    cursor: pointer;
+  }
+  
+  .footerRight {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .fInput {
+    padding: 5px;
+  }
+  
+  .fButton {
+    padding: 5px;
+    background-color: black;
+    color: white;
+  }
+  
+  .fIcons{
+    display: flex;
+  }
+  
+  .fIcon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .copyright{
+    font-weight: 300;
+    font-size: 14px;
+  }
+
+
+
+
+.containerCesta{
+    display: none;
+    background-color: #000000d7;
+    padding: 20px;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    right: 0px;
+    top: 10vh;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #fff;
+}
+
+.containerCesta h3{
+    font-family: campton;
+    font-size: 22px;
+}
+
+.containerProductosCesta{
+    width: 100%;
+    height: 75%;
+    overflow: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.containerProductosCesta div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.containerProductosCesta div img{
+    width: 50px;
+}
+
+
+.containerButtonsCesta{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerButtonsCesta button{
+    width: 40%;
+    height: 35px;
+}
+
+
+
+
+
+.containerUser{
+    background-color: #000000d7;
+    padding: 20px;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    right: 0px;
+    top: 10vh;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #fff;
+}
+
+
+
+
+
+@media screen and (max-width:1600px) {
+    .containerProducto{
+        width: 70%;
+    }
+}
+@media screen and (max-width:1200px) {
+    .containerProducto{
+        width: 90%;
+    }
+}
+

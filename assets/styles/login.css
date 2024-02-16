@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    background-color: #000;
+    font-family:Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;        
+    background-image: url(../images/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    }
+form {
+    background-color: #fff;
+    width: 350px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    margin: 120px auto;
+}
+  
+h2 {
+    font-size: 24px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #000;
+    font-family: campton;
+    width: 100%;
+    text-align: center;
+}
+  
+.contenedor {
+    width: 100%;
+    margin-bottom: 20px; /* Mayor espacio entre contenedores */
+}
+  
+.input-container {
+    position: relative;
+}
+  
+label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    pointer-events: none;
+    transition: top 0.3s, left 0.3s, font-size 0.3s;
+    color: #fff;
+    background-color: transparent; /* Quita el fondo del label */
+    visibility: hidden;
+}
+
+
+input[type="text"], input[type="password"]{
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    padding-left:8px ;
+    width: 94%;
+}
+  
+  
+input[type="text"]:focus + label, input[type="email"]:focus + label, input[type="password"]:focus + label {
+    top: -5px;
+    left: 5px;
+    font-size: 12px;
+    padding: 2px 5px;
+    color: #000;
+    visibility: visible;
+    border: none;
+}
+
+input:focus{
+    border: none;
+}
+
+  
+input[type="submit"] {
+    background: linear-gradient(to right, #FFA500, #800080);
+    color: white;
+    width: 97%;
+    padding: 10px;
+    border: none;
+    margin-top: 25px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+input[type="text"]::placeholder, input[type="email"]::placeholder, input[type="password"]::placeholder {
+      opacity: 1; /* Mostrar el placeholder normalmente */
+}
+  
+  /* Estilos para el placeholder cuando el input está enfocado */
+input[type="text"]:focus::placeholder, input[type="email"]:focus::placeholder, input[type="password"]:focus::placeholder {
+      opacity: 0; /* Ocultar el placeholder cuando el input está enfocado */
+}
+
+
+.noTengoCuenta{
+    font-size: 13px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-bottom: 50px;
+    width: 75%;
+}
+
+.informationRegister, .informationLogin {
+    width: 90%;
+    margin: auto;
+    border-radius: 3px;
+    padding: 7px;
+    height: 25px;
+    display: flex;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    color: #ff0000;
+    font-size: 12px;
+}
+
+
+
+
+@font-face {
+    font-family: campton;
+    src: url(../fonts/Campton-BoldDEMO.otf);
+}
